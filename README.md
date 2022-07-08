@@ -96,3 +96,8 @@ import numpy as np
 mu, sigma = 0, 1 # mean and standard deviation
 s = np.random.normal(mu, sigma)
 print(s)
+
+if s < z:
+    print('Escolhido')
+else:
+    print('Não escolhido')
